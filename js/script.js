@@ -1,3 +1,4 @@
+
 document.querySelectorAll(".video-hover-container").forEach((container) => {
   const img = container.querySelector(".video-thumbnail");
   const vid = container.querySelector(".video-preview");
