@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 body {
   font-family: "AvertaCY", sans-serif;
 }
@@ -831,3 +835,163 @@ body::-webkit-scrollbar {
   }
 }
 
+
+#ourProjectsHeading{
+  background-color: white;
+  width: 100%;
+
+}
+#ourProjectsHeadingMain{
+  padding: 8vh 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+#ourProjectsHeadingMain h2{
+  font-size: 5vw;
+}
+#ourProjectsHeadingMain p{
+  font-size: 1.3vw;
+
+}
+.ourHeadingButtons{
+  display: flex;
+  gap: 60px;
+  margin-top: 70px;
+}
+.ourHeadingButtons button{
+  background-color: white;
+  border: none;
+  font-size: 1.4vw;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#projectShowcaseMain{
+  padding: 0vh 15vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+#projectShowcaseLeft{
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+}
+#projectShowcaseRight{
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+  margin-bottom: 320px;
+}
+
+.projectShowcaseBox{
+  width: 25vw;
+  height: 50vh;
+}
+.projectShowcaseBox .video-hover-container img{
+  border-radius: 5px !important ;
+}
+
+.projectShowcaseBoxtext{
+  color: black;
+  width: 20vw;
+  margin-top: 30px;
+}
+.projectShowcaseBoxtext p{
+  font-size: 1.1vw;
+}
+.projectShowcaseBoxtext p span{
+  font-weight: 900;
+}
+
+
+
+
+
+
+.projectShowcaseBox {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.projectShowcaseBox:hover {
+  transform: scale(0.99); /* Slight shrink */
+}
+
+.video-hover-container {
+  overflow: hidden; /* Hide image overflow when it scales */
+}
+
+.video-thumbnail {
+  transition: transform 0.4s ease;
+}
+
+.projectShowcaseBox:hover .video-thumbnail {
+  transform: scale(1.05); /* Zoom in on image */
+}
+
+
+.ourHeadingButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.ourHeadingButtons button {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 16px;
+  font-size: 1.2vw;
+}
+
+.ourHeadingButtons button .text {
+  display: inline-block;
+  height: 1.2em;
+  overflow: hidden;
+  position: relative;
+}
+
+.ourHeadingButtons button .text span {
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.ourHeadingButtons button .text span:first-child {
+  transform: translateY(0%);
+}
+
+.ourHeadingButtons button:hover .text span:first-child {
+  transform: translateY(-100%);
+}
+
+.ourHeadingButtons button .text span:last-child {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(0%);
+}
+
+.ourHeadingButtons button:hover .text span:last-child {
+  transform: translateY(-100%);
+}
+
+/* Black underline for active button */
+.tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: 6px; /* Adjust to sit below text */
+  left: 20%;
+  width: 60%;
+  height: 1.5px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}

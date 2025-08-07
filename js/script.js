@@ -167,3 +167,19 @@ document.querySelectorAll(".video-hover-container").forEach((container) => {
 //     console.error("Required rope elements not found in container");
 //   }
 // }
+
+
+
+const tabButtons = document.querySelectorAll('.tab-button');
+
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      // Remove active class from all
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      // Add active class to clicked one
+      button.classList.add('active');
+
+      // You can also show/hide specific sections here:
+      // For example: document.getElementById("applications").style.display = "block";
+    });
+  });
