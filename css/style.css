@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -28,7 +28,6 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
 
 #nav {
   position: fixed;
@@ -113,8 +112,6 @@ body::-webkit-scrollbar {
 .nav-link.active::after {
   animation: underlineGrow 0.4s ease forwards;
 }
-
-
 
 @font-face {
   font-family: "AvertaCY";
@@ -864,45 +861,44 @@ body::-webkit-scrollbar {
   border-top: 1px solid black;
 }
 
-#ourServicesWorkingWithUs{
+#ourServicesWorkingWithUs {
   background-color: black;
   border-top-left-radius: 5vw;
   border-top-right-radius: 5vw;
 }
-#ourServicesWorkingWithUsMain{
+#ourServicesWorkingWithUsMain {
   padding: 20vh 20vw;
   color: white;
 }
-#workingWithUsHeading{
+#workingWithUsHeading {
   font-size: 3vw;
   width: 35vw;
   margin-bottom: 10vh;
 }
 
-
-.workingWithUsContentBox{
+.workingWithUsContentBox {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
-  border-top: 1.5px solid #C9C9C9;
+  border-top: 1.5px solid #c9c9c9;
   padding-top: 5vh;
   margin-bottom: 10vh;
 }
-.workingWithUsContentLeft{
+.workingWithUsContentLeft {
   width: 26.5vw;
   display: flex;
   align-items: start;
   justify-content: space-between;
 }
-.workingWithUsContentLeft svg{
+.workingWithUsContentLeft svg {
   width: 60px;
 }
-.workingWithUsContentLeft p{
+.workingWithUsContentLeft p {
   text-transform: uppercase;
   font-size: 0.7vw;
   font-weight: 600;
 }
-.workingWithUsContentRight{
+.workingWithUsContentRight {
   width: 26vw;
   font-size: 1.4vw;
   margin-right: 5vw;
@@ -926,34 +922,31 @@ body::-webkit-scrollbar {
 
 /* our projects page  */
 
-#ourProjectsHeading{
+#ourProjectsHeading {
   background-color: white;
   width: 100%;
-
 }
-#ourProjectsHeadingMain{
+#ourProjectsHeadingMain {
   padding: 8vh 20vw;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
   justify-content: center;
-  margin-top: 100px ;
-
+  margin-top: 100px;
 }
-#ourProjectsHeadingMain h2{
+#ourProjectsHeadingMain h2 {
   font-size: 5vw;
 }
-#ourProjectsHeadingMain p{
+#ourProjectsHeadingMain p {
   font-size: 1.3vw;
-
 }
-.ourHeadingButtons{
+.ourHeadingButtons {
   display: flex;
   gap: 60px;
   margin-top: 70px;
 }
-.ourHeadingButtons button{
+.ourHeadingButtons button {
   background-color: white;
   border: none;
   font-size: 1.4vw;
@@ -961,13 +954,13 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 
-#projectShowcaseMain{
+#projectShowcaseMain {
   padding: 0vh 15vw;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 300px;
 }
-#projectShowcaseLeft{
+#projectShowcaseLeft {
   width: 30vw;
   display: flex;
   align-items: center;
@@ -975,7 +968,7 @@ body::-webkit-scrollbar {
   flex-direction: column;
   gap: 150px;
 }
-#projectShowcaseRight{
+#projectShowcaseRight {
   width: 30vw;
   display: flex;
   align-items: center;
@@ -985,30 +978,25 @@ body::-webkit-scrollbar {
   margin-bottom: 320px;
 }
 
-.projectShowcaseBox{
+.projectShowcaseBox {
   width: 25vw;
   height: 50vh;
 }
-.projectShowcaseBox .video-hover-container img{
+.projectShowcaseBox .video-hover-container img {
   border-radius: 5px !important ;
 }
 
-.projectShowcaseBoxtext{
+.projectShowcaseBoxtext {
   color: black;
   width: 20vw;
   margin-top: 30px;
 }
-.projectShowcaseBoxtext p{
+.projectShowcaseBoxtext p {
   font-size: 1.1vw;
 }
-.projectShowcaseBoxtext p span{
+.projectShowcaseBoxtext p span {
   font-weight: 900;
 }
-
-
-
-
-
 
 .projectShowcaseBox {
   transition: transform 0.3s ease;
@@ -1030,7 +1018,6 @@ body::-webkit-scrollbar {
 .projectShowcaseBox:hover .video-thumbnail {
   transform: scale(1.05); /* Zoom in on image */
 }
-
 
 .ourHeadingButtons {
   display: flex;
