@@ -1074,3 +1074,26 @@ body::-webkit-scrollbar {
   background-color: #000;
   transition: width 0.3s ease;
 }
+
+
+#companyPageHeading{
+  background-color: white;
+
+}
+#companyPageHeadingMain{
+  padding: 20vh 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#companyPageHeadingMain h2{
+  font-size: 5vw;
+  text-align: center;
+
+}
+#companyPageHeadingMain img{
+  width: 100%;
+  margin-top: 8vh;
+  border-radius: 1vw;
+}
