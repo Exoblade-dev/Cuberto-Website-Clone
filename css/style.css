@@ -1075,88 +1075,85 @@ body::-webkit-scrollbar {
   transition: width 0.3s ease;
 }
 
-
-#companyPageHeading{
+#companyPageHeading {
   background-color: white;
-
 }
-#companyPageHeadingMain{
+#companyPageHeadingMain {
   padding: 20vh 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-#companyPageHeadingMain h2{
+#companyPageHeadingMain h2 {
   font-size: 5vw;
   text-align: center;
-
 }
-#companyPageHeadingMain img{
+#companyPageHeadingMain img {
   width: 100%;
   margin-top: 8vh;
   border-radius: 1vw;
 }
-#companyPageContent{
+#companyPageContent {
   background-color: white;
 }
-#companyPageContentMain{
+#companyPageContentMain {
   padding: 0vh 15vw;
 }
-#companyPageSection1{
+#companyPageSection1 {
   padding: 0vh 5vw;
 }
-.companySec1{
+.companySec1 {
   display: flex;
   justify-content: space-between;
 }
-.companySec1Left{
+.companySec1Left {
   width: 10vw;
   font-size: 1vw;
   text-transform: uppercase;
 }
-.companySec1Right{
+.companySec1Right {
   width: 40vw;
   font-size: 1.5vw;
 }
-.companySec1Image{
+.companySec1Image {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10vh;
 }
-.companySec1Image img{
+.companySec1Image img {
   width: 45%;
   border-radius: 1vw;
   display: block;
 }
-.companySec1Image img:nth-child(1){
+.companySec1Image img:nth-child(1) {
   margin-bottom: 20vh;
 }
-.companySec1Image img:nth-child(2){
+.companySec1Image img:nth-child(2) {
   margin-top: 20vh;
 }
 
-#companyPageSection2{
+#companyPageSection2 {
   padding: 20vh 5vw;
 }
-#companyPageSection2Heading{
+#companyPageSection2Heading {
   font-size: 4vw;
   font-weight: 800;
   width: 40vw;
 }
-.companyPageSection2Info{
+.companyPageSection2Info {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
   margin-top: 50px;
   border-top: 2px solid #808080;
 }
-.companyPageSection2InfoLeft{
+.companyPageSection2InfoLeft {
   width: 10vw;
   font-size: 0.8vw;
   text-transform: uppercase;
 }
-.companyPageSection2InfoRight{
+.companyPageSection2InfoRight {
   width: 38vw;
   font-size: 1.4vw;
   display: flex;
@@ -1165,33 +1162,32 @@ body::-webkit-scrollbar {
   margin-right: 5vw;
 }
 
-.companyPageSection2InfoBottom{
+.companyPageSection2InfoBottom {
   display: flex;
   gap: 50px;
 }
-.companyPageSection2InfoBottom p{
+.companyPageSection2InfoBottom p {
   font-size: 3.5vw;
 }
-.companyPageSection2InfoBottom h5{
+.companyPageSection2InfoBottom h5 {
   font-size: 1vw;
   font-weight: 400;
 }
 
-.companyMainImage2 img{
+.companyMainImage2 img {
   width: 100%;
   border-radius: 1vw;
 }
 
-#companyPageSection3{
+#companyPageSection3 {
   padding: 20vh 5vw;
-
 }
-#companyPageSection3Heading h2{
+#companyPageSection3Heading h2 {
   font-size: 4vw;
   width: 40vw;
   letter-spacing: -2px;
 }
-.companyPageSection3Info{
+.companyPageSection3Info {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -1199,22 +1195,45 @@ body::-webkit-scrollbar {
   padding-top: 50px;
 }
 
-.companyPageSection3InfoLeft{
+.companyPageSection3InfoLeft {
   width: 10vw;
   font-size: 0.8vw;
   text-transform: uppercase;
-
 }
-.companyPageSection3InfoRight{
+.companyPageSection3InfoRight {
   width: 40vw;
   font-size: 1.6vw;
   margin-right: 5vw;
   letter-spacing: -1px;
 }
-.companyPageSection3InfoRight span{
+.companyPageSection3InfoRight span {
   border-bottom: 1px solid black;
 }
-.companyMainVideo video{
+.companyMainVideo video {
   width: 100%;
   border-radius: 1vw;
+}
+#companyPageSection4 {
+  padding: 20vh 5vw;
+}
+#companyPageSection4Heading p{
+  font-size: 4.5vw;
+  font-weight: 800;
+  width: 35vw;
+  line-height: 90px;
+}
+.companyLogoMain{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
+.companyLogos {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.companyLogos img{
+  width: 22%;
 }
