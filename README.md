@@ -58,7 +58,7 @@ This project is for educational and non-commercial use only. All assets belong t
 
 ## Credits
 - Inspired by [Cuberto](https://cuberto.com/)
-- Developed by <Exoblade-Dev>
+- Developed by Me
 
 ---
 Feel free to fork, modify, and use this project for your portfolio or learning purposes!
