@@ -701,7 +701,7 @@ body::-webkit-scrollbar {
   background-color: black;
 }
 #footerMain {
-  padding: 2vh 15vw;
+  padding: 10vh 15vw;
   display: flex;
   justify-content: space-between;
   padding-bottom: 10vh;
@@ -1411,4 +1411,241 @@ body::-webkit-scrollbar {
 
 .blogContentBox1:hover .blogContentBoxImage img {
   transform: scale(1.05); /* Slight zoom in */
+}
+
+#contactPageHeading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5vw;
+  margin-top: 20vh;
+}
+#contactPageHeading p{
+  width: 34vw;
+  text-align: center;
+  font-weight: 800;
+}
+
+#contactPageInfo {
+  padding: 10vh 15vw;
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
+.service-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-btn {
+  font-family: "AvertaCY", sans-serif;
+  background-color: white;
+  padding: 0px 20px;
+  color: black;
+  border: 1.5px solid black;
+  border-radius: 2vw;
+  font-size: 1.8vw;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none;
+}
+
+.service-btn span {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.4s ease;
+}
+
+.service-btn span::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect */
+.service-btn:hover span {
+  transform: translateY(-100%);
+}
+
+/* Active state */
+.service-btn.active {
+  background-color: black;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-btn {
+    font-size: 16px;
+    border-radius: 25px;
+  }
+}
+
+
+.contactForm {
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+.contactForm input,
+.contactForm textarea {
+  font-family: "AvertaCY", sans-serif;
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid #808080;
+  background-color: white;
+  font-size: 1.5vw;
+  padding: 10px 0;
+  outline: none; /* remove default focus border */
+  resize: none; /* no resizing for textarea */
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-bottom-color: #555; /* subtle change on focus */
+}
+
+.projectBudget p{
+  font-size: 1.5vw;
+  margin-top: 100px;
+  color: #000;
+  font-weight: 600;
+}
+/* Project Budget Buttons Layout */
+.projectBudgetButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Button Base Style */
+.projectBudgetButtons button {
+  background-color: white;
+  padding: 2px 20px;
+  color: black;
+  border: 1.5px solid black;
+  border-radius: 2vw;
+  font-size: 1.8vw;
+  cursor: pointer;
+  overflow: hidden; /* required for animation */
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Animation text span */
+.projectBudgetButtons button span {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.4s ease;
+}
+
+/* Duplicate text for hover animation */
+.projectBudgetButtons button span::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hover effect */
+.projectBudgetButtons button:hover span {
+  transform: translateY(-100%);
+}
+
+/* Active / toggled style */
+.projectBudgetButtons button.active {
+  background-color: black;
+  color: white;
+}
+.addAttachment{
+  width: fit-content;
+}
+.addAttachment button {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 100px;
+  position: relative; /* needed for pseudo-element positioning */
+  cursor: pointer;
+}
+
+/* SVG */
+.addAttachment button svg {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Text */
+.addAttachment button p {
+  width: 220px;
+  font-size: 1.5vw;
+  font-weight: 600;
+  position: relative;
+}
+
+/* Underline animation */
+.addAttachment button p::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -5px; /* space below text */
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.addAttachment button:hover p::after {
+  transform: scaleX(1);
+}
+
+#sendRequest button{
+  padding: 20px 40px;
+  margin-left: 15vw;
+  background-color: white;
+  color: #808080;
+  border: 1.5px solid #808080;
+  font-size: 1.5vw;
+  border-radius: 2vw;
+}
+#sendRequest p{
+  font-size: 0.8vw;
+  color: #555;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  margin-bottom: 200px;
+  width: 19vw;
+}
+#sendRequest p span{
+  color: black;
+  font-weight: 600;
 }
