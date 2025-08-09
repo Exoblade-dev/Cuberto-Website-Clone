@@ -29,8 +29,8 @@ This project is a clone of the Cuberto design agency website, built for educatio
 │   └── ... (all images and subfolders)
 ├── fonts/
 │   └── ... (custom font files)
-├── video/
-│   └── ... (all video files and subfolders)
+└── video/
+    └── ... (all video files and subfolders)
 ```
 
 ## Getting Started
