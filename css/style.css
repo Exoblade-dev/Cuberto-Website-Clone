@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
   width: 100%;
   padding: 1rem 2rem;
   background: white;
-  z-index: 1000;
+  z-index: 1;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-between;
@@ -1648,4 +1648,15 @@ body::-webkit-scrollbar {
 #sendRequest p span{
   color: black;
   font-weight: 600;
+}
+
+
+.boxArea1{
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
 }

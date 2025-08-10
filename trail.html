@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cuberto Clone</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <!-- Recommended -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,slnt,wght@8..144,-10..0,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="boxArea1">
+      <div data-cursor="-hidden">Hover me to hide cursor!</div>
+
+      <div data-cursor="-inverse">Hover me to inverse cursor!</div>
+
+      <a>On this element cursor will be in pointer state</a>
+      <div class="my-image">On this element cursor will be in opaque state</div>
+      <div class="my-input">On this element cursor will be hidden</div>
+
+      <div data-cursor-text="Hello!">Hover me!</div>
+
+      <div data-cursor-icon="arrow-left">Hover me!</div>
+
+      <div data-cursor-img="./images/cover (1).jpg">
+        Hover me to show image!
+      </div>
+
+      <div data-cursor-video="/video/1.mp4">Hover me to show movie!</div>
+
+      <div data-cursor-stick>Hover me to stick cursor!</div>
+
+      <div data-cursor-show data-cursor-text="Surprise!">
+        Hover me to show cursor!
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script>
+      var cursor = new MouseFollower();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.179.1/three.tsl.js"
+      integrity="sha512-SCfv7v5j2YiOsdTrQdeXSgrdqOAKdw7WwrBA3ore9TRxW2OxWkV6NXNMaG1MhdhBqDB6mboh8jRrwZIgrkOBQQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <!-- Recommended -->
+  </body>
+</html>
