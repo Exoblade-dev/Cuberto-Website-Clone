@@ -773,7 +773,6 @@ body::-webkit-scrollbar {
   text-align: right;
 }
 
-
 .footerRightOptionsInfo {
   text-align: right;
 }
@@ -807,10 +806,6 @@ body::-webkit-scrollbar {
 .footerRightOptionsInfo a:hover span:last-child {
   transform: translateY(-100%);
 }
-
-
-
-
 
 .socialMediaLinks {
   display: flex;
@@ -1692,77 +1687,72 @@ body::-webkit-scrollbar {
 
 /* Base style for any button with the .btn class */
 .btn {
-    position: relative; 
-    overflow: hidden;   
-    z-index: 1;         
-    
-    /* Common styling from your project */
-    width: fit-content;
-    font-family: "AvertaCY", sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
-    
-    /* Default transition */
-    transition: color 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  /* Common styling from your project */
+  width: fit-content;
+  font-family: "AvertaCY", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+
+  /* Default transition */
+  transition: color 0.4s ease-in-out;
 }
 
 /* The pseudo-element for the filling animation */
 .btn::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0; 
-    z-index: -1; 
-    transition: height 0.4s ease-in-out; 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  transition: height 0.4s ease-in-out;
 }
 
 /* Triggers the animation on hover */
 .btn:hover::before {
-    height: 100%;
+  height: 100%;
 }
-
 
 /* --- VARIATION 1: White button fills with Black --- */
 .btn.btn-fill-black {
-    background-color: white;
-    color: black;
-    border: 1.5px solid black;
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
 }
 
 .btn.btn-fill-black::before {
-    background-color: black;
+  background-color: black;
 }
 
 .btn.btn-fill-black:hover {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
-
 
 /* --- VARIATION 2: Black button fills with White --- */
 .btn.btn-fill-white {
-    background-color: black; /* Using your project's black */
-    color: white ;
-    border: 1.5px solid white;
+  background-color: black; /* Using your project's black */
+  color: white;
+  border: 1.5px solid white;
 }
 
 .btn.btn-fill-white::before {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .btn.btn-fill-white:hover {
-    color: #111827 !important; /* Force text color change */
+  color: #111827 !important; /* Force text color change */
 }
-
 
 /* --- Special override for the "TELL US" button --- */
 .tellUsContent .btn.btn-fill-white {
-    background-color: transparent;
+  background-color: transparent;
 }
-
-
 
 .projectShowcaseBox {
   width: 28vw;
@@ -1805,12 +1795,6 @@ body::-webkit-scrollbar {
 .projectShowcaseBox:hover {
   transform: translateY(-3px);
 }
-
-
-
-
-
-
 
 /* Preloader overlay */
 #preloader {
