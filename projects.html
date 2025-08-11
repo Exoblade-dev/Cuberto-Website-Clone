@@ -27,7 +27,7 @@
       <!-- Nav Bar Section -->
       <div id="nav">
         <div id="navLeft">
-          <a href="index.html">
+          <a href="index.html" class="magnet">
             <img src="images/logo.png" alt="" />
           </a>
         </div>
@@ -491,7 +491,7 @@
             <div class="tellUsContent">
               <p>Have</p>
               <p>an idea?</p>
-              <button>TELL US</button>
+              <button class="btn btn-fill-white">TELL US</button>
             </div>
           </section>
         </div>
@@ -503,7 +503,7 @@
           <div id="footerMainLeft">
             <div class="InfoAddress">
               <div class="address1">
-                <button>info@cuberto.com</button>
+                <button class="btn btn-fill-white">info@cuberto.com</button>
                 <div>
                   <p>
                     <span>Main office</span> 901 N Pitt Street Alexandria VA,
@@ -513,7 +513,7 @@
               </div>
 
               <div class="address1">
-                <button>+1 301 549 9309</button>
+                <button class="btn btn-fill-white">+1 301 549 9309</button>
                 <div>
                   <p>
                     <span>Second office</span> Na Perstyne 342/1, 11000 Prague
@@ -529,18 +529,29 @@
           <div id="footerMainRight">
             <div class="footerRightOptions">
               <div class="footerRightOptionsInfo">
-                <p>Services</p>
-                <p>Projects</p>
-                <p>Company</p>
+                <a href="services.html"
+                  ><span>Services</span><span>Services</span></a
+                >
+                <a href="projects.html"
+                  ><span>Projects</span><span>Projects</span></a
+                >
+                <a href="company.html"
+                  ><span>Company</span><span>Company</span></a
+                >
               </div>
               <div class="footerRightOptionsInfo">
-                <p>Blog</p>
-                <p>Workflow</p>
-                <p>Contacts</p>
+                <a href="blog.html"><span>Blog</span><span>Blog</span></a>
+                <a href="https://hello.cuberto.com/"
+                  ><span>Workflow</span><span>Workflow</span></a
+                >
+                <a href="contacts.html"
+                  ><span>Contacts</span><span>Contacts</span></a
+                >
               </div>
             </div>
+
             <div class="socialMediaLinks">
-              <a href="https://www.instagram.com/cubertodesign/">
+              <a href="https://www.instagram.com/cubertodesign/" class="magnet">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -554,6 +565,7 @@
 
               <a
                 href="https://www.youtube.com/channel/UCzestFrXpwSGCfcbO2pObwQ"
+                class="magnet"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -566,7 +578,7 @@
                 </svg>
               </a>
 
-              <a href="https://github.com/Cuberto">
+              <a href="https://github.com/Cuberto" class="magnet">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -578,7 +590,7 @@
                 </svg>
               </a>
 
-              <a href="https://www.facebook.com/Cuberto.design/">
+              <a href="https://www.facebook.com/Cuberto.design/" class="magnet">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -590,7 +602,7 @@
                 </svg>
               </a>
 
-              <a href="https://dribbble.com/cuberto">
+              <a href="https://dribbble.com/cuberto" class="magnet">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -602,7 +614,7 @@
                 </svg>
               </a>
 
-              <a href="https://www.behance.net/cuberto">
+              <a href="https://www.behance.net/cuberto" class="magnet">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -618,19 +630,12 @@
         </div>
       </div>
     </div>
-    <script src="./js/script.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.179.1/three.tsl.js"
-      integrity="sha512-SCfv7v5j2YiOsdTrQdeXSgrdqOAKdw7WwrBA3ore9TRxW2OxWkV6NXNMaG1MhdhBqDB6mboh8jRrwZIgrkOBQQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/sheryjs/dist/Shery.js"
-    ></script>
-    <!-- Recommended -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.179.1/three.min.js"></script>
+    <!-- use three.min.js, not three.tsl.js -->
+    <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
