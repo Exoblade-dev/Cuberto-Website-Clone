@@ -23,6 +23,8 @@
     />
   </head>
   <body>
+    <!-- Preloader -->
+    <div id="preloader"></div>
     <div id="servicesMain">
       <!-- Nav Bar Section -->
       <div id="nav">
@@ -100,10 +102,18 @@
         <div class="projectBudget">
           <p>Project budget (USD)</p>
           <div class="projectBudgetButtons">
-            <button class="magnet"><span data-text="10-20K">10-20K</span></button>
-            <button class="magnet"><span data-text="30-40K">30-40K</span></button>
-            <button class="magnet"><span data-text="40-50K">40-50K</span></button>
-            <button class="magnet"><span data-text="50-100K">50-100K</span></button>
+            <button class="magnet">
+              <span data-text="10-20K">10-20K</span>
+            </button>
+            <button class="magnet">
+              <span data-text="30-40K">30-40K</span>
+            </button>
+            <button class="magnet">
+              <span data-text="40-50K">40-50K</span>
+            </button>
+            <button class="magnet">
+              <span data-text="50-100K">50-100K</span>
+            </button>
             <button class="magnet"><span data-text=">100K">>100K</span></button>
           </div>
         </div>
@@ -170,7 +180,7 @@
               </div>
             </div>
             <div id="privacyPolicyCuberto">
-              <p id="privacyPolicy">Privacy Policy</p>
+              <a href="https://cuberto.com/privacy/"><p id="privacyPolicy">Privacy Policy</p></a>
               <p id="cuberto2025">2025, Cuberto</p>
             </div>
           </div>
@@ -285,5 +295,6 @@
     <!-- use three.min.js, not three.tsl.js -->
     <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <script src="./js/script.js"></script>
+    <script src="js/preloader.js"></script>
   </body>
 </html>
