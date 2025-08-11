@@ -1006,7 +1006,7 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 150px;
+  gap: 20px;
 }
 #projectShowcaseRight {
   width: 30vw;
@@ -1014,7 +1014,7 @@ body::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 150px;
+  gap: 20px;
   margin-bottom: 320px;
 }
 
@@ -1760,4 +1760,48 @@ body::-webkit-scrollbar {
 /* --- Special override for the "TELL US" button --- */
 .tellUsContent .btn.btn-fill-white {
     background-color: transparent;
+}
+
+
+
+.projectShowcaseBox {
+  width: 28vw;
+  height: 78vh;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.project-image-container {
+  overflow: hidden;
+  border-radius: 1vw;
+  transition: border-width 0.3s ease;
+  height: 70%; /* Adjust based on your layout */
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: calc(3vw - 4px);
+  transition: transform 0.3s ease;
+}
+
+.projectShowcaseBoxtext {
+  padding: 1rem 0;
+  /* text-align: center; */
+}
+
+/* Hover Effects */
+.projectShowcaseBox:hover .project-image {
+  transform: scale(1.05); /* Image zooms in */
+}
+
+.projectShowcaseBox:hover .project-image-container {
+  border-width: 2px; /* Border shrinks */
+}
+
+/* Optional: Add subtle lift effect */
+.projectShowcaseBox:hover {
+  transform: translateY(-3px);
 }
