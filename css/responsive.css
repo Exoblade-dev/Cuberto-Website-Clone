@@ -5,33 +5,66 @@
 /* Tablets */
 @media (max-width: 1024px) {
   /* adjust sections for tablets */
+  @media (max-width: 768px) {
+    .shery-cursor,
+    .mouse-follower {
+      display: none !important;
+    }
+  }
 }
-
-
-
-
-
 
 /* Large Phones */
 @media (max-width: 768px) {
   /* adjust layout for big phones */
 
-  #nav{
+  #nav {
     margin: 0px;
     padding: 10px;
   }
+  #navRight {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .shery-cursor,
+    .mouse-follower {
+      display: none !important;
+    }
+  }
 }
-
-
-
-
-
-
 
 /* Small Phones */
 @media (max-width: 480px) {
   /* adjust layout for small phones */
-  #navRight{
+  #navRight {
     display: none;
+  }
+  @media (max-width: 768px) {
+    .shery-cursor,
+    .mouse-follower {
+      display: none !important;
+    }
+  }
+  #headingText h2{
+    font-size: 12vw;
+    text-align: left;
+    width: 90vw;
+    height: 24vh;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  #headingText h4{
+    font-size: 6vw;
+    text-align: left;
+    width: 90vw;
+    height: 10vh;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  #heroVideo #heroInformation video{
+    width: 70vw !important; 
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 4vw;
   }
 }

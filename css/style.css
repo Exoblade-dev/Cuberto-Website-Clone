@@ -1807,11 +1807,7 @@ body::-webkit-scrollbar {
   z-index: 9999;
 }
 
-
-
-
-
-.hamburger{
+.hamburger {
   font-size: 30px;
   margin-right: 10px;
 }
@@ -1903,15 +1899,14 @@ body::-webkit-scrollbar {
   width: fit-content;
 }
 
-
 .menuLinks a {
   font-size: 2rem;
   text-decoration: none;
   color: black;
   font-weight: 600;
-  transform: translateX(-50px);  /* start shifted left */
-  opacity: 0;                   /* start invisible */
-  transition: all 0.5s ease;    /* smooth movement */
+  transform: translateX(-50px); /* start shifted left */
+  opacity: 0; /* start invisible */
+  transition: all 0.5s ease; /* smooth movement */
 }
 
 /* When menu is shown */
@@ -1921,12 +1916,21 @@ body::-webkit-scrollbar {
 }
 
 /* Stagger effect: each link delays a little */
-.menuOverlay.show .menuLinks a:nth-child(1) { transition-delay: 0.1s; }
-.menuOverlay.show .menuLinks a:nth-child(2) { transition-delay: 0.2s; }
-.menuOverlay.show .menuLinks a:nth-child(3) { transition-delay: 0.3s; }
-.menuOverlay.show .menuLinks a:nth-child(4) { transition-delay: 0.4s; }
-.menuOverlay.show .menuLinks a:nth-child(5) { transition-delay: 0.5s; }
-
+.menuOverlay.show .menuLinks a:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.menuOverlay.show .menuLinks a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.menuOverlay.show .menuLinks a:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.menuOverlay.show .menuLinks a:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.menuOverlay.show .menuLinks a:nth-child(5) {
+  transition-delay: 0.5s;
+}
 
 .menuFooter {
   opacity: 0;
@@ -1938,4 +1942,37 @@ body::-webkit-scrollbar {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.7s; /* appears after links */
+}
+
+
+
+/* Hide overlay + hamburger by default */
+.menuOverlay,
+.hamburger {
+  display: none;
+}
+
+/* Show them only on smaller screens (up to 1024px) */
+@media (max-width: 768px) {
+  .hamburger {  
+    display: block; /* or flex depending on your design */
+    cursor: pointer;
+    z-index: 1000; /* above overlay */
+  }
+
+  .menuOverlay {
+    display: flex; /* overlay becomes usable */
+  }
+
+  /* And hide normal nav links */
+  #navRight {
+    display: none;
+  }
+}
+
+/* On larger screens (desktop), keep nav visible */
+@media (min-width: 1025px) {
+  #navRight {
+    display: flex;
+  }
 }

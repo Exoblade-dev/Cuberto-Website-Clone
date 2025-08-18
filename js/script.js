@@ -24,7 +24,11 @@
 // ------------------------------------------------------
 
 // ----------------- SHERY.JS -----------------
-Shery.mouseFollower();
+if (window.innerWidth > 1024 && !("ontouchstart" in window)) {
+  Shery.mouseFollower();
+}
+  
+
 Shery.makeMagnet(".magnet");
 
 // ----------------- VIDEO HOVER -----------------
@@ -65,19 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector(".menuOverlay");
+const closeBtn = document.querySelector(".closeBtn");
 
-
-
-
-const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.menuOverlay');
-const closeBtn = document.querySelector('.closeBtn');
-
-hamburger.addEventListener('click', () => {
-  menu.classList.add('show');
+hamburger.addEventListener("click", () => {
+  menu.classList.add("show");
 });
 
-closeBtn.addEventListener('click', () => {
-  menu.classList.remove('show');
+closeBtn.addEventListener("click", () => {
+  menu.classList.remove("show");
 });
-
