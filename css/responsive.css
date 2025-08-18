@@ -44,7 +44,7 @@
       display: none !important;
     }
   }
-  #headingText h2{
+  #headingText h2 {
     font-size: 12vw;
     text-align: left;
     width: 90vw;
@@ -52,7 +52,7 @@
     margin-top: 0px;
     padding-top: 0px;
   }
-  #headingText h4{
+  #headingText h4 {
     font-size: 6vw;
     text-align: left;
     width: 90vw;
@@ -60,7 +60,7 @@
     margin-top: 0px;
     padding-top: 0px;
   }
-  #heroInformation{
+  #heroInformation {
     width: 100vw;
     height: 45vh;
     display: flex;
@@ -69,31 +69,30 @@
     border-radius: 4vw;
     margin-top: 40px;
   }
-  #heroVideo #heroInformation video{
-    width: 95vw; 
+  #heroVideo #heroInformation video {
+    width: 95vw;
     height: 40vh;
     padding: 0px;
     margin: 0px;
     border-radius: 4vw;
   }
-  #ourPhilosophyVideo{
+  #ourPhilosophyVideo {
     display: none;
   }
-  #ourPhilosophyText{
+  #ourPhilosophyText {
     margin: 0px;
     padding: 0px;
-
   }
-  #ourPhilosophyInfo{
+  #ourPhilosophyInfo {
     padding: 0px;
     padding-top: 40px;
   }
-  #ourPhilosophyText p{
+  #ourPhilosophyText p {
     font-size: 6vw;
     width: 100%;
     padding: 20px;
   }
-  #ourPhilosophyText button{
+  #ourPhilosophyText button {
     width: 90%;
     font-size: 5vw;
     padding: 10px 0px;
@@ -101,20 +100,224 @@
     border-radius: 10vw;
     margin-bottom: 60px;
   }
-  #FPText video{
+  #FPText video {
     display: none;
   }
-  #FPText p{
+  #FPText p {
     font-family: "AvertaCY", sans-serif;
     font-size: 15vw;
     font-weight: bold;
-}
-#featuredProjectHeadingText {
-    font-size: 15vw; 
+  }
+  #featuredProjectHeadingText {
+    font-size: 15vw;
     padding: 10vw 10vw;
     font-weight: bold;
   }
-  #featuredProjectHeading{
+  #featuredProjectHeading {
     padding: 0px;
+  }
+  #featuredProjectContent {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: 5400px;
+  }
+  #featuredProjectContentleft {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  #featuredProjectContentright {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 0px;
+  }
+  .featuredContentBox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .featuredContentBox1 .video-hover-container {
+    width: 400px;
+    max-width: 100vw;
+    height: 400px;
+    max-height: 400px;
+  }
+  .featuredContentBox1text {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .featuredContentBox1text p {
+    width: 100%;
+    font-size: 5vw;
+  }
+  #projectsButton {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+  }
+  #projectsButton button {
+    width: 90vw;
+    font-size: 6vw;
+    border-radius: 10vw;
+    margin-bottom: 0px;
+  }
+  #featuredProjectMain {
+    height: 5800px;
+  }
+  #ourServicesMain {
+    padding: 20px;
+  }
+  #ourServicesHeading p {
+    font-size: 12vw;
+  }
+  #ourServicesContent {
+    display: flex;
+    flex-direction: column;
+  }
+  #ourServicesContentleft {
+    width: 90vw;
+    margin-top: 40px;
+  }
+  #ourServicesContentLeftHeading {
+    font-size: 5vw;
+    width: 100%;
+    line-height: 30px;
+  }
+  .ourServicesContentBox {
+    width: 90vw;
+    height: 120vw;
+  }
+  .ourServicesContentBox .video-hover-container {
+    width: 90vw;
+    max-width: 90vw;
+  }
+  .ourServicesContentBoxText h3 {
+    font-size: 6vw;
+  }
+  .ourServicesContentBoxText p {
+    font-size: 6vw;
+  }
+  #ourServicesContentright .ourServicesContentBox {
+    height: 120vw;
+  }
+  #ourServicesContentright {
+    margin-top: 20px;
+  }
+  #ourServicesButton {
+    width: 90vw;
+  }
+  #ourServicesButton button {
+    width: 90vw;
+    font-size: 6vw;
+    margin-bottom: 20px;
+  }
+  #blogSectionMain {
+    padding: 20px;
+  }
+  #blogSectionHeading {
+    padding-top: 40px;
+    font-size: 14vw;
+  }
+  .blogSectionContentImage img {
+    width: 90vw;
+    border-radius: 1vw;
+  }
+  .blogSectionContentBox {
+    flex-direction: column;
+  }
+  .blogSectionContentText {
+    width: 90vw;
+  }
+  .blogSectionContentText button {
+    font-size: 4vw;
+    border-radius: 10vw;
+    padding: 8px 10px;
+  }
+  .blogSectionContentText p {
+    font-size: 6vw;
+  }
+  .blogSectionContentText .blogSectionContentInfo {
+    width: 92vw;
+    color: white;
+    font-size: 6.2vw;
+    font-weight: 600;
+  }
+  .blogSectionContentText p {
+    font-size: 4vw;
+  }
+  #blogSectionButton {
+    width: 90vw;
+  }
+  #blogSectionButton button {
+    width: 90vw;
+    font-size: 4vw;
+    border-radius: 10vw;
+  }
+  .tellUsContent p {
+    font-size: 12vw;
+  }
+  .tellUsContent button {
+    border-radius: 15vw;
+    font-size: 12vw;
+  }
+  #footerMain {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .InfoAddress {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
+  .address1 {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .address1 button {
+    width: 70vw;
+    font-size: 5vw;
+    border-radius: 10vw;
+  }
+  .address1 p {
+    font-size: 6vw;
+  }
+  #privacyPolicyCuberto p {
+    font-size: 5vw;
+  }
+  #footerMainRight {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+  .footerRightOptions {
+    display: flex;
+    gap: 40px;
+    color: white;
+    font-size: 6.5vw;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .socialMediaLinks a svg {
+    width: 47px;
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 5vw;
+    padding: 10px;
   }
 }
