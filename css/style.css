@@ -1818,7 +1818,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(8px); /* glass effect */
