@@ -23,7 +23,6 @@
 // }
 // ------------------------------------------------------
 
-
 // ----------------- SHERY.JS -----------------
 Shery.mouseFollower();
 Shery.makeMagnet(".magnet");
@@ -57,13 +56,28 @@ tabButtons.forEach((button) => {
 });
 
 // ----------------- SERVICE BUTTONS -----------------
-document.addEventListener('DOMContentLoaded', function() {
-  const buttons = document.querySelectorAll('.service-btn');
-  buttons.forEach(button => {
-    button.addEventListener('click', function() {
-      this.classList.toggle('active');
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".service-btn");
+  buttons.forEach((button) => {
+    button.addEventListener("click", function () {
+      this.classList.toggle("active");
     });
   });
 });
 
+
+
+
+
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menuOverlay');
+const closeBtn = document.querySelector('.closeBtn');
+
+hamburger.addEventListener('click', () => {
+  menu.classList.add('show');
+});
+
+closeBtn.addEventListener('click', () => {
+  menu.classList.remove('show');
+});
 

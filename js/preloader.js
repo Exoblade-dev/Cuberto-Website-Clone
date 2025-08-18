@@ -121,7 +121,7 @@ window.addEventListener("load", () => {
       );
     }
   }
-
+  
   // 8. Shared videos (index & services)
   const videoEl =
     document.querySelector("#heroInformation video") ||

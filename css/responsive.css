@@ -1,0 +1,37 @@
+/* ===========================
+   Responsive Styles
+=========================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  /* adjust sections for tablets */
+}
+
+
+
+
+
+
+/* Large Phones */
+@media (max-width: 768px) {
+  /* adjust layout for big phones */
+
+  #nav{
+    margin: 0px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+/* Small Phones */
+@media (max-width: 480px) {
+  /* adjust layout for small phones */
+  #navRight{
+    display: none;
+  }
+}
