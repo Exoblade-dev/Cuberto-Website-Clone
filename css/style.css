@@ -1813,6 +1813,7 @@ body::-webkit-scrollbar {
 
 .hamburger{
   font-size: 30px;
+  margin-right: 10px;
 }
 .menuOverlay {
   position: fixed;
