@@ -60,11 +60,61 @@
     margin-top: 0px;
     padding-top: 0px;
   }
+  #heroInformation{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4vw;
+    margin-top: 40px;
+  }
   #heroVideo #heroInformation video{
-    width: 70vw !important; 
-    height: auto;
+    width: 95vw; 
+    height: 40vh;
     padding: 0px;
     margin: 0px;
     border-radius: 4vw;
+  }
+  #ourPhilosophyVideo{
+    display: none;
+  }
+  #ourPhilosophyText{
+    margin: 0px;
+    padding: 0px;
+
+  }
+  #ourPhilosophyInfo{
+    padding: 0px;
+    padding-top: 40px;
+  }
+  #ourPhilosophyText p{
+    font-size: 6vw;
+    width: 100%;
+    padding: 20px;
+  }
+  #ourPhilosophyText button{
+    width: 90%;
+    font-size: 5vw;
+    padding: 10px 0px;
+    margin-left: 5%;
+    border-radius: 10vw;
+    margin-bottom: 60px;
+  }
+  #FPText video{
+    display: none;
+  }
+  #FPText p{
+    font-family: "AvertaCY", sans-serif;
+    font-size: 15vw;
+    font-weight: bold;
+}
+#featuredProjectHeadingText {
+    font-size: 15vw; 
+    padding: 10vw 10vw;
+    font-weight: bold;
+  }
+  #featuredProjectHeading{
+    padding: 0px;
   }
 }
