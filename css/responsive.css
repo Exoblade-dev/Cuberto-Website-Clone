@@ -509,4 +509,254 @@
     gap: 20px;
     margin-bottom: 320px;
   }
+  #companyPageHeadingMain {
+    padding: 120px 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #companyPageHeadingMain h2 {
+    font-size: 10vw;
+    text-align: center;
+  }
+  #companyPageHeadingMain img {
+    width: 90vw;
+    margin-top: 8vh;
+    border-radius: 5vw;
+    height: 55vh;
+    object-fit: cover;
+  }
+  .companySec1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 20px;
+  }
+  #companyPageContentMain {
+    padding: 20px;
+  }
+  #companyPageSection1 {
+    padding: 0px;
+  }
+  .companySec1Left {
+    width: 90vw;
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+  .companySec1Right {
+    width: 90vw;
+    font-size: 6vw;
+  }
+  .companySec1Image {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    margin-top: 10vh;
+  }
+  .companySec1Image img:nth-child(1) {
+    margin-bottom: 0px;
+    width: 90vw;
+    border-radius: 3vw;
+  }
+  .companySec1Image img:nth-child(2) {
+    margin-top: 20px;
+    width: 90vw;
+    border-radius: 3vw;
+  }
+  #companyPageSection2 {
+    padding: 0px;
+  }
+  #companyPageSection2Heading p {
+    width: 90vw;
+    font-size: 12vw;
+    margin-top: 100px;
+    line-height: 50px;
+  }
+  #companyPageSection2Heading {
+    font-size: 4vw;
+    font-weight: 800;
+    width: 90vw;
+  }
+  .companyPageSection2Info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #808080;
+  }
+  .companyPageSection2InfoLeft {
+    width: 90vw;
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+  .companyPageSection2InfoRight p {
+    font-size: 1vw;
+  }
+  .companyPageSection2InfoRight p {
+    font-size: 6vw;
+    width: 90vw;
+    font-weight: 500;
+  }
+  .companyPageSection2InfoRight {
+    margin-top: 30px;
+    width: 90vw;
+  }
+  .companyPageSection2InfoBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .companyPageSection2InfoBottom p {
+    font-size: 12vw;
+  }
+  .companyPageSection2InfoBottom h5 {
+    font-size: 5vw;
+  }
+  .companyMainImage2 {
+    margin-top: 50px;
+    /* border: 5vw; */
+  }
+  .companyMainImage2 img {
+    width: 100%;
+    border-radius: 5vw;
+  }
+  #companyPageSection3 {
+    padding: 60px 0px;
+  }
+  #companyPageSection3Heading h2 {
+    font-size: 12vw;
+    width: 90vw;
+    letter-spacing: -2px;
+  }
+  .companyPageSection3Info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    border-top: 2px solid #808080;
+    padding-top: 20px;
+  }
+  .companyPageSection3InfoLeft {
+    width: 90vw;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+  }
+  .companyPageSection3InfoRight {
+    width: 90vw;
+    font-size: 6vw;
+    margin-right: 5vw;
+    letter-spacing: -1px;
+    margin-top: 30px;
+  }
+  .companyMainVideo video {
+    object-fit: cover;
+    object-position: center;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 5vw;
+  }
+  #companyPageSection4 {
+    padding: 5vh 0vw;
+  }
+  #companyPageSection4Heading p {
+    font-size: 10.5vw;
+    font-weight: 800;
+    width: 90vw;
+    line-height: 55px;
+  }
+  .companyLogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .companyLogoMain {
+    display: flex;
+    width: 90vw;
+  }
+  .companyLogoMain {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+  .companyLogos img {
+    width: 27%;
+  }
+  .companyFeedback {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #808080;
+  }
+  .companyFeedbackLeft {
+    width: 90vw;
+    text-transform: uppercase;
+    font-size: 4.5vw;
+  }
+  .companyFeedbackRight p:nth-child(1) {
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .companyFeedbackRight p:nth-child(2) {
+    font-size: 6vw;
+    width: 90vw;
+    padding: 20px 0px;
+  }
+  .companyFeedbackRight a button{
+    width: 60vw;
+    font-size: 6vw;
+    border-radius: 8vw;
+  }
+  .companyFeedbackImage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .companyFeedbackImage img:nth-child(1) {
+    margin-bottom: 10px;
+    width: 90vw;
+    border-radius: 5vw;
+  }
+  .companyFeedbackImage img:nth-child(2) {
+    margin-top: 10px;
+    width: 90vw;
+    border-radius: 5vw;
+  }
+  .getToKnowUs {
+    background-color: white;
+    padding: 20px;
+  }
+  .getToKnowUsHeading p {
+    width: 90vw;
+    font-size: 12vw;
+    line-height: 50px;
+    margin-top: 70px;
+  }
+  .getToKnowUsInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #808080;
+  }
+  .getToKnowUsLeft {
+    width: 45vw;
+    font-size: 4.8vw;
+    text-transform: uppercase;
+  }
+  .getToKnowUsRight{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .getToKnowUsRight p{
+    font-size: 6vw;
+    width: 90vw;
+  }
 }
