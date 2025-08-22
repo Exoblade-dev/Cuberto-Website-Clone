@@ -76,10 +76,6 @@ cuberto-website-clone/
 │ └── trail.html # Trail page
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Quick Start
