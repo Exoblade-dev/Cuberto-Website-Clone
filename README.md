@@ -13,7 +13,7 @@ A meticulously crafted, fully responsive clone of the stunning Cuberto design ag
 
 🎨 **Pixel-Perfect Design** - Faithful recreation of Cuberto's premium aesthetic  
 🚀 **Smooth Animations** - Butter-smooth transitions and micro-interactions  
-📱 **Mobile-First** - Seamlessly responsive across all devices  
+📱 **Fully Responsive** - Seamlessly optimized for mobile, tablet, and desktop devices  
 ⚡ **Performance Optimized** - Fast loading with efficient animations  
 
 ---
@@ -37,7 +37,7 @@ A meticulously crafted, fully responsive clone of the stunning Cuberto design ag
 
 ### 📐 Technical Excellence
 - 🎨 **Modern CSS Grid & Flexbox** layouts
-- 📱 **Responsive breakpoints** for all screen sizes
+- 📱 **Complete responsive breakpoints** across mobile, tablet, and large screens  
 - 🖼️ **Optimized image handling** with lazy loading
 - 🎪 **Custom font integration** matching original design
 
@@ -45,37 +45,40 @@ A meticulously crafted, fully responsive clone of the stunning Cuberto design ag
 
 ## 🏗️ Project Architecture
 
-```
 cuberto-website-clone/
 ├── 🎨 css/
-│   └── style.css              # Main stylesheet
-├── 🔤 fonts/                  # Custom font files
-│   ├── AvertaCY-Bold.ttf
-│   ├── AvertaCY-Light.ttf
-│   ├── AvertaCY-Regular.ttf
-│   ├── AvertaCY-Semibold.ttf
-│   ├── matter-light.ttf
-│   └── matter-regular.ttf
-├── 🖼️ images/                 # Organized image assets
-│   ├── blog page/
-│   ├── company page/
-│   └── projects page/
-├── ⚡ js/                     # JavaScript modules
-│   ├── preloader.js          # Loading animations
-│   └── script.js             # Main functionality
-├── 🎥 video/                  # Video assets
-│   ├── company page/
-│   └── services page/
+│ ├── style.css # Main stylesheet
+│ └── responsive.css # Responsive stylesheet
+├── 🔤 fonts/ # Custom font files
+│ ├── AvertaCY-Bold.ttf
+│ ├── AvertaCY-Light.ttf
+│ ├── AvertaCY-Regular.ttf
+│ ├── AvertaCY-Semibold.ttf
+│ ├── matter-light.ttf
+│ └── matter-regular.ttf
+├── 🖼️ images/ # Organized image assets
+│ ├── blog page/
+│ ├── company page/
+│ └── projects page/
+├── ⚡ js/ # JavaScript modules
+│ ├── preloader.js # Loading animations
+│ └── script.js # Main functionality
+├── 🎥 video/ # Video assets
+│ ├── company page/
+│ └── services page/
 ├── 📄 HTML Pages
-│   ├── index.html            # Homepage
-│   ├── blog.html             # Blog page
-│   ├── company.html          # Company page
-│   ├── contacts.html         # Contact page
-│   ├── projects.html         # Projects page
-│   ├── services.html         # Services page
-│   └── trail.html            # Trail page
+│ ├── index.html # Homepage
+│ ├── blog.html # Blog page
+│ ├── company.html # Company page
+│ ├── contacts.html # Contact page
+│ ├── projects.html # Projects page
+│ ├── services.html # Services page
+│ └── trail.html # Trail page
 └── README.md
-```
+
+yaml
+Copy
+Edit
 
 ---
 
@@ -88,21 +91,27 @@ cuberto-website-clone/
 ### Installation
 
 1. **Clone the repository**
-```
 git clone https://github.com/Exoblade-dev/Cuberto-Website-Clone.git
-```
+
+markdown
+Copy
+Edit
 
 2. **Navigate to project**
-```
 cd Cuberto-Website-Clone
-```
+
+markdown
+Copy
+Edit
 
 3. **Launch locally**
-```
-# Open index.html in your browser
-# Or use a local server (recommended)
+Open index.html in your browser
+Or use a local server (recommended)
 npx serve .
-```
+
+yaml
+Copy
+Edit
 
 4. **Start exploring!** 🎉
 
@@ -130,10 +139,11 @@ npx serve .
 ## 🎨 Design Philosophy
 
 This clone focuses on:
-- **✨ Micro-interactions** that delight users
+- **✨ Micro-interactions** that delight users  
 - **🎯 Performance optimization** without sacrificing beauty  
-- **📐 Pixel-perfect accuracy** to the original design
-- **🔧 Clean, maintainable code** structure
+- **📱 Mobile-first responsiveness** for all screen sizes  
+- **📐 Pixel-perfect accuracy** to the original design  
+- **🔧 Clean, maintainable code** structure  
 
 ---
 
@@ -141,29 +151,31 @@ This clone focuses on:
 
 **Sahil** | Full-Stack Developer in Training 🚀
 
-- 🎯 Currently mastering frontend development
-- 📚 Learning backend technologies
-- 💫 Passionate about creating exceptional web experiences
-- 🔗 GitHub: [@Exoblade-dev](https://github.com/Exoblade-dev)
+- 🎯 Currently mastering frontend development  
+- 📚 Learning backend technologies  
+- 💫 Passionate about creating exceptional web experiences  
+- 🔗 GitHub: [@Exoblade-dev](https://github.com/Exoblade-dev)  
 
 ---
 
 ## 📄 License & Usage
 
-```
 📖 Educational Use Only
 This project is created for learning purposes and portfolio demonstration.
 All original design credits belong to Cuberto Agency.
 Not intended for commercial use.
-```
+
+yaml
+Copy
+Edit
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Cuberto Agency** for the incredible original design
-- **GSAP Team** for the amazing animation library
-- **Web Development Community** for inspiration and resources
+- **Cuberto Agency** for the incredible original design  
+- **GSAP Team** for the amazing animation library  
+- **Web Development Community** for inspiration and resources  
 
 ---
 
@@ -176,4 +188,3 @@ Not intended for commercial use.
 **[👀 View Live Demo](https://cuberto-website-clone-nu.vercel.app/) | [📁 Browse Code](https://github.com/Exoblade-dev/Cuberto-Website-Clone)**
 
 </div>
-```
